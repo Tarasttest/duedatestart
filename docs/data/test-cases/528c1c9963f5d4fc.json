@@ -1,12 +1,12 @@
 {
-  "uid" : "2d859c0babad7e8d",
+  "uid" : "528c1c9963f5d4fc",
   "name" : "should login with valid credentials",
   "fullName" : "My Login application.should login with valid credentials",
-  "historyId" : "79ec835f0a5b5af7cb3377beb5399a53",
+  "historyId" : "d7333d5f8bc369408c480ab1c31410d9",
   "time" : {
-    "start" : 1632332012632,
-    "stop" : 1632332014424,
-    "duration" : 1792
+    "start" : 1632151413482,
+    "stop" : 1632151416871,
+    "duration" : 3389
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -42,7 +42,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-93.0.4577.63"
+    "value" : "chrome-93.0.4577.82"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -50,12 +50,12 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "1472005dedaef96c",
+      "uid" : "1f147c22cbad8b63",
       "status" : "passed",
       "time" : {
-        "start" : 1631812939713,
-        "stop" : 1631812942850,
-        "duration" : 3137
+        "start" : 1632151291270,
+        "stop" : 1632151295003,
+        "duration" : 3733
       }
     } ],
     "categories" : [ ],
@@ -69,17 +69,17 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "fa2fdca06482216f",
+        "uid" : "923ca2a19adbbb0a",
         "status" : "passed",
         "time" : {
-          "start" : 1631812939713,
-          "stop" : 1631812942850,
-          "duration" : 3137
+          "start" : 1632151413482,
+          "stop" : 1632151416871,
+          "duration" : 3389
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "2d859c0babad7e8d.json",
-  "parameterValues" : [ "chrome-93.0.4577.63" ]
+  "source" : "528c1c9963f5d4fc.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
 }
