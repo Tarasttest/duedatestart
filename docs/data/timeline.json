@@ -4,7 +4,20 @@
     "name" : "0-0",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "a8cad58c2c624368",
+      "uid" : "8d4082ef9526128",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632151291270,
+        "stop" : 1632151295003,
+        "duration" : 3733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "89ada5f72cda9f76",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -17,39 +30,26 @@
       "parameters" : [ "chrome-93.0.4577.63" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "ed751a3813c7fba0",
+      "uid" : "887c7856164a5444",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1632151413482,
-        "stop" : 1632151416871,
-        "duration" : 3389
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "c1ce01d17261836c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632335770314,
-        "stop" : 1632335771218,
-        "duration" : 904
+        "start" : 1632336086203,
+        "stop" : 1632336088591,
+        "duration" : 2388
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-93.0.4577.63" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "49ea3aba33225a44",
+      "uid" : "e31ba1289678cffa",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1632151291270,
-        "stop" : 1632151295003,
-        "duration" : 3733
+        "start" : 1632151413482,
+        "stop" : 1632151416871,
+        "duration" : 3389
       },
       "flaky" : false,
       "newFailed" : false,
