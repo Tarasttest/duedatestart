@@ -1,0 +1,85 @@
+{
+  "uid" : "a08b99d239d95e97",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "d7333d5f8bc369408c480ab1c31410d9",
+  "time" : {
+    "start" : 1632151413482,
+    "stop" : 1632151416871,
+    "duration" : 3389
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9dd1933459e22a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632151291270,
+        "stop" : 1632151295003,
+        "duration" : 3733
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "923ca2a19adbbb0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632151413482,
+          "stop" : 1632151416871,
+          "duration" : 3389
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a08b99d239d95e97.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}
