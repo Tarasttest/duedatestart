@@ -1,5 +1,6 @@
 name: Main Github Actions
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'main' # Set branch of the GH repo to push
