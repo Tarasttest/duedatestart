@@ -2,7 +2,7 @@ name: Main Github Actions
 on:
   push:
     branches:
-      - 'master' # Set branch of the GH repo to push
+      - 'main' # Set branch of the GH repo to push
 jobs:
   test_suite: # Name of the job
       runs-on: ubuntu-20.04 # Choosing OS
@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '12' # In command line run “node -v” and choose your version
+          node-version: '16.9.1' # In command line run “node -v” and choose your version
       - run: npm ci # - run: npm config set script-shell "C:\Program Files\Git\bin\bash.exe"
       - name: run test
         run: npm run test:headless # Our name of the headless script
@@ -36,17 +36,17 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         if: always()
         with:
-          branch: master # The branch the action should deploy to.
+          branch: gh-pageds # The branch the action should deploy to.
           folder: allure-report # The folder the action should deploy.
           target-folder: docs
       - name: Pushes docs to another repository
         uses: cpina/github-action-push-to-another-repository@v1.3
         if: always()
         env:
-            API_TOKEN_GITHUB: ${{ 'YOUR TOKEN' }} # Instruction where to get token is below
+            API_TOKEN_GITHUB: ${{ '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' }} # Instruction where to get token is below
         with:
           source-directory: 'docs'
-          destination-github-username: 'username' # Your username
-          destination-repository-name: 'reponame' # Name of your repo
-          user-email: user@gmail.com # Your email
+          destination-github-username: 'Tarasttest' # Your username
+          destination-repository-name: 'duedatestart' # Name of your repo
+          user-email: medotest@ukr.net # Your email
           target-branch: main
